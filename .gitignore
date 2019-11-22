@@ -10,6 +10,9 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+[Bb]uild/
+[Ll]ib/
+
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
@@ -57,3 +60,12 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+
+*/bin/[Dd]ebug
+*/obj/[Dd]ebug
+
+#unit test packages
+
+*[Tt]est[Rr]esult*/
+*[Bb]uild[Ll]og.*
